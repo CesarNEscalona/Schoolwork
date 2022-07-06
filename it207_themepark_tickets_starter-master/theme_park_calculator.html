@@ -1,0 +1,64 @@
+<!--
+    This file contains the markup for the theme park
+    tickets calculator.
+    Author: Cesar Escalona
+    File:HTML
+    Date: 04/18/2020
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Theme Park Ticket Calculator</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div>
+    <img src="images/tp_top.png" alt=""/>
+    <h1><strong>Theme Park Ticket Calculator</strong></h1>
+    <form>
+        <label for="AdCost">Adult Cost</label>
+        <input type="text" placeholder="35.00" id="AdCost" name="AdCost"><br><br>
+        <label for="CdCost">Child Cost</label>
+        <input type="text" placeholder="15.00" id="CdCost" name="CdCost"><br><br>
+
+        <label for="AdultTix">Adult tickets</label>
+        <select id="AdultTix" name="AdultTix">
+            <option value="0">0 tickets</option>
+            <option value="1">1 ticket</option>
+            <option value="2">2 tickets</option>
+            <option value="3">3 tickets</option>
+            <option value="4">4 tickets</option>
+            <option value="5">5 tickets</option>
+            <option value="6">6 tickets</option>
+            <option value="7">7 tickets</option>
+            <option value="8">8 tickets</option>
+            <option value="9">9 tickets</option>
+            <option value="10">10 tickets</option>
+        </select><br><br>
+
+        <label for="ChildTix">Child tickets</label>
+        <select id="ChildTix" name="ChildTix">
+            <option value="0">0 tickets</option>
+            <option value="1">1 ticket</option>
+            <option value="2">2 tickets</option>
+            <option value="3">3 tickets</option>
+            <option value="4">4 tickets</option>
+            <option value="5">5 tickets</option>
+            <option value="6">6 tickets</option>
+            <option value="7">7 tickets</option>
+            <option value="8">8 tickets</option>
+            <option value="9">9 tickets</option>
+            <option value="10">10 tickets</option>
+        </select><br><br>
+        <button class="button">Calculate!</button><br><br>
+
+        <h2 id="total"></h2>
+
+
+    </form>
+   <img src="images/tp_bottom.png" alt=""/>
+</div>
+<script src="scripts/tickets.js"></script>
+</body>
+</html>

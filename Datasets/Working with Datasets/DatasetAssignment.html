@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Dataset Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="data.js"></script>
+
+</head>
+<body>
+<div class="div1">
+<h1> Police Shootings Dataset</h1>
+    <p>This is a database of every fatal shooting in the United States
+        by a police officer in the line of duty since Jan. 1, 2015. There are <u id="totalNum"></u>
+        elements in the dataset.</p>
+</div>
+
+<div class="div2">
+    <h2 id="suspectName"></h2>
+    <p> Age:  <strong id="suspectAge"></strong></p>
+    <p> Race:  <strong id="suspectRace"></strong></p>
+    <p> Gender:  <strong id="suspectGender"></strong></p>
+    <p> Unarmed or Armed with:  <strong id="suspectArmed"></strong></p>
+    <p> Cause of death:  <strong id="suspectManner"></strong></p>
+    <p> City:  <strong id="suspectCity"></strong></p>
+    <p> State:  <strong id="suspectState"></strong></p> <br>
+
+    <button type="button" button class="button" id ="previous"><</button>
+    <button type="button" button class="button" id ="next">></button>
+</div>
+
+<div class="div3">
+    <h2> Here Are Some Interesting Facts in My Dataset!</h2>
+    <p><strong>1.</strong> Women that were shot by police only make up for <u id="avgShot"></u> percent of the
+        entire dataset.</p>
+
+    <p><strong>2.</strong> Records indicate that <u id="malesShot"></u> total males were shot while
+        only <u id="femalesShot"></u> females
+        were shot. This means that <u id="difference"></u> more males were shot than females.</p>
+
+    <p><strong>3.</strong> There are <u id="stateMost"></u> total suspects shot and killed in the state of
+        Washington.</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

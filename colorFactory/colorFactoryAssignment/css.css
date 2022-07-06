@@ -1,0 +1,64 @@
+#h1 {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.header {
+    width: 28%;
+    display: block;
+    margin: 0 auto;
+    background-color: #7b7b66;
+    border: 1px solid black;
+}
+
+.backGround {
+    width: 28%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(253, 251, 224);
+    border: 1px solid black;
+}
+
+.flex-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: #b4b394;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+}
+
+.button {
+    margin: auto;
+    position: center;
+    background-color: rgb(226, 223, 198);
+    border: 1px solid black;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.div {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+}
