@@ -1,0 +1,19 @@
+package strategy.sorting_types;
+
+import strategy.interfaces.ISorts;
+import strategy.utilities.Sorts;
+
+/**
+ * This class will sort an array using a bubble sort
+ *
+ * @param <T>
+ * @author Cesar Escalona
+ * @version 1.0
+ */
+public class BubbleSort<T extends Comparable<T>> implements ISorts<T> {
+
+    @Override
+    public void sort(T[] array) {
+        Sorts.bubbleSort(array);
+    }
+}
